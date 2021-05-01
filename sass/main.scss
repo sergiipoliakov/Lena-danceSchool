@@ -1,0 +1,39 @@
+@import './fonts.scss';
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './base/normalize';
+@import './utils/buttons';
+@import './components/container';
+@import './components/header/module';
+@import './components/footer.scss';
+
+// $socialIcons: 'facebook', 'github', 'linkedin', 'twitter', 'instagram';
+// $techIcons: 'html', 'css', 'js';
+
+// @include generateIcons($socialIcons);
+// @include generateIcons($techIcons);
+@media screen and (min-width: 900px) {
+  body {
+    background-color: orange;
+  }
+}
+body {
+  font-family: Lato, sans-serif;
+  background-image: url('../images/main-bg-img.jpg');
+  background-attachment: fixed;
+
+  // background-repeat: no-repeat;
+  // background-size: contain;
+}
+
+.list {
+  list-style: none;
+  // margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
